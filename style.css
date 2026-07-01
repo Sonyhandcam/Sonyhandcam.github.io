@@ -62,3 +62,30 @@ footer {
   color: gray;
   font-size: 12px;
 }
+
+.video-wrap {
+  position: relative;
+}
+
+/* fallback box styling */
+.fallback {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px dashed hotpink;
+  background: rgba(0,0,0,0.6);
+}
+
+.fallback p {
+  color: #00ffcc;
+  margin: 5px 0;
+}
+
+.fallback a {
+  color: hotpink;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.fallback a:hover {
+  text-shadow: 0 0 10px #00ffcc;
+}
